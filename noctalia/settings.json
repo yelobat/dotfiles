@@ -131,7 +131,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generateTemplatesForPredefined": true,
+        "generateTemplatesForPredefined": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "matugenSchemeType": "scheme-fruit-salad",
@@ -196,7 +196,7 @@
     },
     "dock": {
         "backgroundOpacity": 1,
-        "colorizeIcons": false,
+        "colorizeIcons": true,
         "displayMode": "always_visible",
         "enabled": true,
         "floatingRatio": 1,
@@ -288,7 +288,7 @@
     "settingsVersion": 20,
     "setupCompleted": true,
     "templates": {
-        "alacritty": true,
+        "alacritty": false,
         "code": false,
         "discord": false,
         "discord_armcord": false,
@@ -299,7 +299,7 @@
         "discord_webcord": false,
         "enableUserTemplates": false,
         "foot": false,
-        "fuzzel": true,
+        "fuzzel": false,
         "ghostty": false,
         "gtk": false,
         "kcolorscheme": false,
@@ -313,7 +313,7 @@
     "ui": {
         "fontDefault": "Roboto",
         "fontDefaultScale": 1,
-        "fontFixed": "DejaVu Sans Mono",
+        "fontFixed": "Iosevka Slab",
         "fontFixedScale": 1,
         "panelsAttachedToBar": true,
         "settingsPanelAttachToBar": false,
