@@ -24,6 +24,9 @@
 (package! ef-themes
   :recipe (:host github :repo "protesilaos/ef-themes"))
 
+(package! typst-ts-mode
+  :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))
+
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;; (package! some-package)
 
