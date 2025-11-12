@@ -195,11 +195,11 @@
         }
     },
     "dock": {
-        "backgroundOpacity": 1,
+        "backgroundOpacity": 1.0,
         "colorizeIcons": true,
         "displayMode": "always_visible",
-        "enabled": true,
-        "floatingRatio": 1,
+        "enabled": false,
+        "floatingRatio": 1.0,
         "monitors": [
         ],
         "onlySameOutput": true,
