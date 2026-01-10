@@ -46,7 +46,8 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
-(set-frame-parameter (selected-frame) 'alpha 95)
+;; Transparency
+;;(set-frame-parameter (selected-frame) 'alpha 100)
 
 (menu-bar-mode -1)
 (tool-bar-mode -1)

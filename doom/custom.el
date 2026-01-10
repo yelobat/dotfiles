@@ -5,7 +5,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("e8bd9bbf6506afca133125b0be48b1f033b1c8647c628652ab7a2fe065c10ef0"
+   '("09db19c6ed4652713b2c90f0dbcd60227a783f4b24330807882e8ede634cd3b9"
+     "e8bd9bbf6506afca133125b0be48b1f033b1c8647c628652ab7a2fe065c10ef0"
      "5f01d424683d32770ca2918ab008f034e7a2796ceb1fdc15dd1a9f882b9de6e9"
      "e97fe6d46c5327660d03168b5126a6be6640fb04e5d4dba37a48a4b26afce8f4"
      "b8a848262cacb110c0cf7bd7bcbe8ec4cb31440aeba8c3e3ff2c2ea437ed04a6"
@@ -86,10 +87,14 @@
      "6963de2ec3f8313bb95505f96bf0cf2025e7b07cefdb93e3d2e348720d401425"
      "dd4582661a1c6b865a33b89312c97a13a3885dc95992e2e5fc57456b4c545176"
      "f1e8339b04aef8f145dd4782d03499d9d716fdc0361319411ac2efc603249326"
-     "a9eeab09d61fef94084a95f82557e147d9630fbbb82a837f971f83e66e21e5ad" default)))
+     "a9eeab09d61fef94084a95f82557e147d9630fbbb82a837f971f83e66e21e5ad" default))
+ '(ignored-local-variable-values '((checkdoc-allow-quoting-nil-and-t . t)))
+ '(package-selected-packages
+   '(fountain-mode "uuidgen" "uuidgen" "uuidgen" "uuidgen" uuidgen)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'customize-group 'disabled nil)

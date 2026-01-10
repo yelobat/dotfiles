@@ -27,6 +27,9 @@
 (package! typst-ts-mode
   :recipe (:host codeberg :repo "meow_king/typst-ts-mode"))
 
+(package! uuidgen
+  :recipe (:host github :repo "emacsmirror/uuidgen"))
+
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;; (package! some-package)
 
