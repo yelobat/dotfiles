@@ -18,6 +18,7 @@
  (packages (specifications->packages (list
 				      ;; Guix Requirements (Foreign Distro)
 				      "glibc-locales"
+				      "nss-certs"
 
 				      ;; Custom Fonts
 				      "fontconfig"
