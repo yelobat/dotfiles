@@ -9,8 +9,7 @@
 	     (gnu services)
 	     (gnu home services)
 	     (guix gexp)
-	     (gnu home services shells)
-	     (gnu home services niri))
+	     (gnu home services shells))
 
 (home-environment
   ;; Below is the list of packages that will show up in your
@@ -92,7 +91,6 @@
 			   (bash-logout (list (local-file
 					       (string-append (getenv "HOME") "/dotfiles/config/home//.bash_logout")
 					       "bash_logout")))))
-		 (service home-niri-service-type)
 		 (service
 		  home-files-service-type
 		  `((".emacs.d/init.el"
