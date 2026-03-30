@@ -94,5 +94,7 @@
 		 (service
 		  home-files-service-type
 		  `((".emacs.d/init.el"
-		     ,(local-file (string-append (getenv "HOME") "/dotfiles/config/emacs/init.el"))))))
+		     ,(local-file (string-append (getenv "HOME") "/dotfiles/config/emacs/init.el")))
+		    (".config/niri/config.kdl"
+		     ,(local-file (string-append (getenv "HOME") "/dotfiles/config/niri/config.kdl"))))))
 	   %base-home-services)))
