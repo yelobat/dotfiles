@@ -96,5 +96,7 @@
 		  `((".emacs.d/init.el"
 		     ,(local-file (string-append (getenv "HOME") "/dotfiles/config/emacs/init.el")))
 		    (".config/niri/config.kdl"
-		     ,(local-file (string-append (getenv "HOME") "/dotfiles/config/niri/config.kdl"))))))
+		     ,(local-file (string-append (getenv "HOME") "/dotfiles/config/niri/config.kdl")))
+		    (".config/fuzzel"
+		     ,(local-file (string-append (getenv "HOME") "/dotfiles/config/fuzzel") #:recursive? #t)))))
 	   %base-home-services)))
