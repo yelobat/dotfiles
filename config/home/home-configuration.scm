@@ -23,6 +23,12 @@
 				      "fontconfig"
 				      "font-iosevka-term-slab"
 
+				      ;; Organization
+				      "syncthing"
+
+				      ;; Privacy
+				      "mullvadbrowser"
+
 				      ;; Git
 				      "git"
 
@@ -47,6 +53,7 @@
 
 				      ;; Emacs
 				      "emacs-pgtk"
+				      "emacs-straight"
 				      "emacs-magit"
 				      "emacs-vertico"
 				      "emacs-corfu"
@@ -59,10 +66,12 @@
 				      "emacs-rustic"
 				      "emacs-yasnippet"
 				      "emacs-hl-todo"
+				      "emacs-dockerfile-mode"
 				      "emacs-mood-line"
 				      "emacs-ultra-scroll"
 				      "emacs-ef-themes"
-				      "emacs-guix")))
+				      "emacs-guix"
+				      "emacs-syncthing")))
 
   ;; Below is the list of Home services.  To search for available
   ;; services, run 'guix home search KEYWORD' in a terminal.
