@@ -43,7 +43,14 @@
 				      "tree-sitter-yaml"
 				      "tree-sitter-toml"
 
+				      ;; make
+				      "make"
+
+				      ;; cmake
+				      "cmake"
+
 				      ;; C
+				      "valgrind"
 				      "gcc-toolchain"
 				      "clang-toolchain"
 
